@@ -1,0 +1,11 @@
+[project]
+name = "hanidown"
+version = "0.1.0"
+description = "batch download videos from hanime1.me"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "bilix>=0.18.9",
+    "selenium>=4.27.1",
+]
